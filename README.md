@@ -1,4 +1,8 @@
-# For privacy policy check #privacypolicy.txt and for TOS check termsofservice.txt. This is also available in the main menu of the app.
+# NOTICE:
+
+For privacy policy check #privacypolicy.txt and for TOS check termsofservice.txt. This is also available in the main menu of the app.
+
+# App Information
 
 Pomoro.time is a Pomodoro focused style website that lets users to focus and use the timer while having an ad-free and subscription-free experience.
 
