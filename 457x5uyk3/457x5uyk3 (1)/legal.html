@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101d2d">
+  <title>Pomoro.time - Legal Documents</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { min-height: 100vh; margin: 0; padding: clamp(22px, 5vw, 64px); background: linear-gradient(135deg, #101d2d, #173b53 58%, #352849); color: #f5f8fc; }
+    main { width: min(100%, 860px); margin: 0 auto; }
+    header { margin-bottom: 32px; }
+    .back-link { color: #d7eaff; text-decoration: none; }
+    .back-link:hover { text-decoration: underline; }
+    h1 { margin: 28px 0 8px; font-size: clamp(34px, 7vw, 56px); font-weight: 550; letter-spacing: -.055em; }
+    .intro { color: rgba(235,243,250,.7); line-height: 1.6; }
+    .document { margin: 20px 0; padding: clamp(22px, 4vw, 38px); border: 1px solid rgba(255,255,255,.14); border-radius: 20px; background: rgba(255,255,255,.06); }
+    .document h2 { margin: 0 0 6px; font-size: clamp(24px, 4vw, 32px); letter-spacing: -.035em; }
+    .updated { margin: 0 0 22px; color: rgba(235,243,250,.62); font-size: 13px; }
+    .document h3 { margin: 24px 0 8px; font-size: 17px; }
+    .document p, .document li { color: rgba(245,248,252,.82); font-size: 15px; line-height: 1.75; }
+    .document p { margin: 9px 0; }
+    .document ul { padding-left: 24px; }
+    a { color: #b9ddff; overflow-wrap: anywhere; }
+    :focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <a class="back-link" href="index.html">← Back to Pomoro.time</a>
+      <h1>Pomoro.time - Legal Documents</h1>
+      <p class="intro">Policies and terms for using Pomoro.time.</p>
+    </header>
+
+    <article class="document" id="privacy-policy">
+      <h2>1. Privacy Policy</h2>
+      <p class="updated">Last Updated: November 5, 2026</p>
+      <p>Doufus Studios ("we," "our," or "us") operates Pomoro.time (accessible via pomorotime.vercel.app). This Privacy Policy explains how we collect, use, and protect your information when you use our web application, specifically through our integration with Google OAuth and Supabase backend services.</p>
+
+      <h3>1. Information We Collect</h3>
+      <p>When you sign in to Pomoro.time using your Google Account via Google OAuth, we collect and store the following profile data:</p>
+      <ul>
+        <li>Your unique Google User ID</li>
+        <li>Your email address</li>
+        <li>Your name and profile picture URL</li>
+      </ul>
+
+      <h3>2. How We Store Your Data</h3>
+      <p>All data collected via authentication and any user-generated app settings, focus history, or notepad logs are securely transmitted to and stored within your user account on our Supabase database instance.</p>
+
+      <h3>3. How We Use Your Information</h3>
+      <p>We use your information strictly to maintain your account, sync your settings across devices, and manage your authenticated sessions. We do not sell, rent, or trade your data with third parties.</p>
+
+      <h3>4. Data Retention and Deletion</h3>
+      <p>We retain your data for as long as your account remains active. You can request the permanent deletion of your account and all associated data at any time by opening a public deletion request issue on our tracking page: <a href="https://github.com/zephyx-en/pomoro.time/issues" target="_blank" rel="noopener noreferrer">https://github.com/zephyx-en/pomoro.time/issues</a>.</p>
+
+      <h3>5. Contact Us</h3>
+      <p>If you have any questions or privacy concerns, please contact us at: <a href="https://github.com/zephyx-en/pomoro.time/issues" target="_blank" rel="noopener noreferrer">https://github.com/zephyx-en/pomoro.time/issues</a>.</p>
+    </article>
+
+    <article class="document" id="terms-of-service">
+      <h2>2. Terms of Service</h2>
+      <p class="updated">Last Updated: November 5, 2026</p>
+      <p>Welcome to Pomoro.time! These Terms of Service ("Terms") govern your use of the Pomoro.time web application (pomorotime.vercel.app), provided by Doufus Studios ("we," "our," or "us"). By logging into or using our application, you agree to these Terms.</p>
+
+      <h3>1. Account Creation and Security</h3>
+      <p>To use cloud features, you must log in using a supported third-party identity provider (Google OAuth). You are responsible for maintaining the security of your account and authentication credentials.</p>
+
+      <h3>2. Permitted Use</h3>
+      <p>Pomoro.time is provided for personal, non-commercial productivity tracking. You agree not to misuse the service, disrupt our Supabase backend infrastructure, or attempt unauthorized access to other user accounts.</p>
+
+      <h3>3. Proprietary Rights</h3>
+      <p>All website designs, interfaces, branding, and assets are owned by Doufus Studios. Copyright Doufus Studios. You may not reproduce, redistribute, or claim any part of this project as your own.</p>
+
+      <h3>4. Limitation of Liability</h3>
+      <p>Pomoro.time is provided "as is" and "as available" without warranties of any kind. As the app is a work-in-progress, we are not liable for any temporary loss of saved focus history, notepad items, or account configurations.</p>
+
+      <h3>5. Termination</h3>
+      <p>We reserve the right to suspend or terminate your access to the application at any time if you violate these Terms or disrupt server operations.</p>
+
+      <h3>6. Support and Inquiries</h3>
+      <p>All disputes, bug reports, and legal inquiries must be submitted publicly via our repository issues system at: <a href="https://github.com/zephyx-en/pomoro.time/issues" target="_blank" rel="noopener noreferrer">https://github.com/zephyx-en/pomoro.time/issues</a>.</p>
+    </article>
+  </main>
+</body>
+</html>
