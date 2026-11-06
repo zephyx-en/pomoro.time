@@ -1,0 +1,15 @@
+1. Privacy Policy
+Privacy Policy Last Updated: November 5, 2026
+
+Doufus Studios ("we," "our," or "us") operates Pomoro.time (accessible via pomorotime.vercel.app). This Privacy Policy explains how we collect, use, and protect your information when you use our web application, specifically through our integration with Google OAuth and Supabase backend services.
+
+1. Information:
+We Collect When you sign in to Pomoro.time using your Google Account via Google OAuth, we collect and store the following profile data: * Your unique Google User ID * Your email address * Your name and profile picture URL
+2. How We Store Your Data:
+All data collected via authentication and any user-generated app settings, focus history, or notepad logs are securely transmitted to and stored within your user account on our Supabase database instance.
+3. How We Use Your Information:
+We use your information strictly to maintain your account, sync your settings across devices, and manage your authenticated sessions. We do not sell, rent, or trade your data with third parties.
+4. Data Retention and Deletion:
+We retain your data for as long as your account remains active. You can request the permanent deletion of your account and all associated data at any time by opening a public deletion request issue on our tracking page: https://github.com/zephyx-en/pomoro.time/issues.
+5. Contact Us:
+If you have any questions or privacy concerns, please contact us at: https://github.com/zephyx-en/pomoro.time/issues
